@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'email/show'
+
+  get 'email/send'
+
   get 'contact/show'
 
   get 'say/hello'

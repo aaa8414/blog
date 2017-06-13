@@ -1,0 +1,62 @@
+<%= render "share/top" %>
+<%= render "share/menu" %>
+<div id="emailbox">
+  <div id="emailShow">
+    <div style="width:210px; overflow:hidden; float:left;">
+      <div class="about_left">
+        <div class="about_left_a">
+          <table width="209" border="0" cellspacing="0" cellpadding="0">
+            <tbody><tr>
+              <td width="86" height="33" align="center" class="tie_a">投诉咨询</td>
+              <td width="135" align="right"></td>
+            </tr>
+            </tbody></table>
+        </div>
+        <div class="about_left_b">
+          <div id="leftmenu">
+            <ul>
+              <li><a href="ts.asp">投诉咨询</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="about_left_c"> </div>
+      </div>
+
+    </div>
+    <div class="email_right">
+      <div class="email_right_a">
+        <table width="752" border="0" cellpadding="0" cellspacing="0">
+          <tbody><tr>
+            <td width="10" height="33" align="center" class="tie_a">&nbsp;</td>
+            <td width="423" style="line-height:38px;"><span class="tie_a">投诉咨询</span></td>
+            <td width="319" align="right" style="line-height:38px;">首页 &gt; 投诉咨询 &nbsp;</td>
+          </tr>
+          </tbody></table>
+      </div>
+      <div class="email_right_b">
+        <div class="content_da">
+          <form onsubmit="return checkbook(this,0)">
+            <ul class="book_add">
+              <li><span>类型</span>
+                <select name="t8" id="t8">
+                  <option checked="checked">建议</option>
+                  <option>投诉</option>
+                </select>
+              </li>
+              <li><span>姓名</span><input type="text" name="t1" size="30" maxlength="10"></li>
+              <li><span>e-mail</span><input type="text" name="t3" size="30" maxlength="50"></li>
+              <li><span>电话</span><input type="text" name="t2" size="30" maxlength="13"></li>
+              <li><span>地址</span><input type="text" name="t7" size="30" maxlength="13"></li>
+              <li><span>主题</span><input type="text" name="t0" size="30"></li>
+              <li><span>信息</span><textarea name="t4" rows="8" cols="60"></textarea></li>
+              <!--<li><span>验证码：</span><input type="text" name="t6" size="6" maxlength="4"> <img src="/inc/imgcode.asp?t0=60&amp;t1=20" align="absmiddle" onclick="this.src+='&amp;'+Math.random();" style="margin:2px 0 0 0;*margin:0;"></li>-->
+              <li><input type="submit" value="提交信息">[请注意适当使用Enter键来换行] <div id="showmsg"></div></li>
+            </ul>
+          </form>
+        </div>
+      </div>
+      <div class="about_right_c"></div>
+    </div>
+  </div>
+</div>
+<%= render "share/foot" %>
