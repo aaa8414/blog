@@ -3,9 +3,11 @@
     <ul>
       <li>
         <a href="index.jsp">网站首页</a>
+        <!--<%= link_to  %>-->
       </li>
       <li>
-        <a href="about/show">关于协会</a>
+        <!--<a href="about/show">关于协会</a>-->
+        <%= link_to '关于协会', :controller => "about", :action => "show" %>
       </li>
       <li>
         <a href="index.jsp">行业时讯</a>
@@ -17,10 +19,12 @@
         <a href="index.jsp">行业数据</a>
       </li>
       <li>
-        <a href="contact/show">联系我们</a>
+        <!--<a href="contact/show">联系我们</a>-->
+        <%= link_to '联系我们', :controller => "contact", :action => "show" %>
       </li>
       <li>
-        <a href="email/show">投诉信箱</a>
+        <!--<a href="email/show">投诉信箱</a>-->
+        <%= link_to '投诉信箱', :controller => "email", :action => "show" %>
       </li>
     </ul>
   </div>
