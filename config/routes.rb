@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'law/show'
+
   get 'about/show'
 
   get 'email/show'
