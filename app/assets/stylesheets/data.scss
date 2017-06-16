@@ -1,0 +1,7 @@
+// Place all the styles related to the data controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#dataMain { width: 100%; overflow: hidden }
+#dataList { width: 980px; margin: auto; overflow: hidden; padding-top: 15px }
+#dataList .dataList_right { width: 756px; float: right; overflow: hidden; margin-left: 10px; margin-bottom: 10px }

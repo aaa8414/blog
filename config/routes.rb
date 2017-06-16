@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'data/show'
+
   get 'news/show'
 
   get 'law/show'
