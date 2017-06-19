@@ -2,32 +2,25 @@
   <div id="menu_all">
     <ul>
       <li>
-        <a href="index.jsp">网站首页</a>
-        <!--<%= link_to  %>-->
+        <%= link_to '网站首页', Rails.configuration.absoluteUrl %>
       </li>
       <li>
-        <!--<a href="about/show">关于协会</a>-->
-        <%= link_to '关于协会', :controller => "/about", :action => "show" %>
+        <%= link_to '关于协会', Rails.configuration.absoluteUrl + '/about/show' %>
       </li>
       <li>
-        <!--<a href="index.jsp">行业时讯</a>-->
-        <%= link_to '行业时讯', :controller => "/news", :action => "show" %>
+        <%= link_to '行业时讯', Rails.configuration.absoluteUrl + '/news/show' %>
       </li>
       <li>
-        <!--<a href="index.jsp">政策法规</a>-->
         <%= link_to '政策法规', Rails.configuration.absoluteUrl + '/law/show'%>
       </li>
       <li>
-        <!--<a href="index.jsp">行业数据</a>-->
-        <%= link_to '行业数据', :controller => "/data", :action => "show" %>
+        <%= link_to '行业数据', Rails.configuration.absoluteUrl + '/data/show' %>
       </li>
       <li>
-        <!--<a href="contact/show">联系我们</a>-->
-        <%= link_to '联系我们', :controller => "/contact", :action => "show" %>
+        <%= link_to '联系我们', Rails.configuration.absoluteUrl + '/contact/show' %>
       </li>
       <li>
-        <!--<a href="email/show">投诉信箱</a>-->
-        <%= link_to '投诉信箱', :controller => "/email", :action => "show" %>
+        <%= link_to '投诉信箱', Rails.configuration.absoluteUrl + '/email/show' %>
       </li>
     </ul>
   </div>
