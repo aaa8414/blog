@@ -1,16 +1,16 @@
-<%= render "share/top" %>
-<%= render "share/menu" %>
+<%= render :partial =>  "share/top" %>
+<%= render :partial =>  "share/menu" %>
 <div id="lawMain">
   <div id="lawList">
-    <div style="width:210px; overflow:hidden; float:left;">
-      <div class="lawList_left">
-        <div class="lawList_left_a">
-          <table width="209" border="0" cellspacing="0" cellpadding="0">
-            <tbody><tr>
-              <td width="86" height="33" align="center" class="tie_a">政策法规</td>
-              <td width="135" align="right"><a href="">&nbsp;</a></td>
-            </tr>
-            </tbody></table>
+          <div style="width:210px; overflow:hidden; float:left;">
+            <div class="lawList_left">
+              <div class="lawList_left_a">
+                <table width="209" border="0" cellspacing="0" cellpadding="0">
+                  <tbody><tr>
+                    <td width="86" height="33" align="center" class="tie_a">政策法规</td>
+                    <td width="135" align="right"><a href="">&nbsp;</a></td>
+                  </tr>
+                  </tbody></table>
         </div>
       </div>
     </div>
@@ -28,7 +28,8 @@
         <div class="content_da"><ul class="nlist" style="padding-left:0px;">
           <!--<li> &gt; <a href="zcfgshow.asp?id=51" title="中华人民共和国消费者权益保护法(2013年修正)">中华人民共和国消费者权益保护法(2013年修正)</a></li>-->
           <li> &gt; <%= link_to '中华人民共和国消费者权益保护法(2013年修正)', :controller => "law", :action => "show", :id => 101 %></li>
-          <li> &gt; <a href="zcfgshow.asp?id=49" title="人身保险公司保险条款和保险费率管理办法（2015年修订）">人身保险公司保险条款和保险费率管理办法（2015年修订）</a></li>
+          <!--<li> &gt; <a href="zcfgshow.asp?id=49" title="人身保险公司保险条款和保险费率管理办法（2015年修订）">人身保险公司保险条款和保险费率管理办法（2015年修订）</a></li>-->
+          <li> &gt; <%= link_to '人身保险公司保险条款和保险费率管理办法（2015年修订）', :controller => "law", :action => "show", :id => 102 %></li>
           <li> &gt; <a href="zcfgshow.asp?id=47" title="保险专业代理机构监管规定（2015年修订）">保险专业代理机构监管规定（2015年修订）</a></li>
           <li> &gt; <a href="zcfgshow.asp?id=46" title="保险经纪机构监管规定（2015年修订）">保险经纪机构监管规定（2015年修订）</a></li>
           <li> &gt; <a href="zcfgshow.asp?id=45" title="保险公司管理规定（2015年修订）">保险公司管理规定（2015年修订）</a></li>
@@ -42,5 +43,5 @@
     </div>
   </div>
 </div>
-<%= render "share/links" %>
-<%= render "share/foot" %>
+<%= render :partial =>  "share/links" %>
+<%= render :partial =>  "share/foot" %>
