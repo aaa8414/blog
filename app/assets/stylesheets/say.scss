@@ -3,14 +3,14 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 //Website toper
-#top{ margin: auto; width: 100%; height: 302px }
-#top_main { width:1007px; height:302px; /*background-image: url("banner.jpg");*/ margin: auto;}
+#top{ margin: auto; width: 100%; height: 223px }
+#top_main { width:1000px; height:223px; /*background-image: url("banner.jpg");*/ margin: auto;}
 
 //Website menu
 #menu{ width:100%; height:40px; /*background:url("menubg.jpg") top center no-repeat;*/ position: relative;z-index:9999;}
-#menu_all{ width:1015px; margin: auto; height:40px; line-height:40px;}
+#menu_all{ width:1008px; margin: auto; height:40px; line-height:40px;}
 #menu_all ul {font-size: 0; list-style:none; height:40px; line-height:40px; margin-top: 4px;padding: 0}
-#menu_all ul li{float:left; font-weight: bold;font-size: 14px;text-align: center;line-height: 40px;height: 40px;width: 144px;color: #FFFFFF;background: #0d7a39;border-right: 1px solid #fff;color: #ffffff}
+#menu_all ul li{float:left; font-weight: bold;font-size: 14px;text-align: center;line-height: 40px;height: 40px;width: 142px;color: #FFFFFF;background: #0d7a39;border-right: 1px solid #fff;color: #ffffff}
 #menu_all ul li a { color: white;text-decoration: none }
 
 //website main
