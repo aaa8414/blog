@@ -1,5 +1,5 @@
-<%= render "share/top" %>
-<%= render "share/menu" %>
+<%= render :partial =>  "share/top" %>
+<%= render :partial =>  "share/menu" %>
 <div id="dataMain">
   <div id="dataList">
     <div style="width:210px; overflow:hidden; float:left;">
@@ -25,19 +25,13 @@
           </tbody></table>
       </div>
       <div class="dataList_right_b">
-        <div class="content_da"><ul class="nlist" style="padding-left:0px;">
-          <li> &gt; <%= link_to '2017年1季度昆山保险统计数据', :controller => "data", :action => "show", :id => 305 %></li>
-          <li> &gt; <%= link_to '2016年4季度昆山保险统计数据', :controller => "data", :action => "show", :id => 304 %></li>
-          <li> &gt; <%= link_to '2016年3季度昆山保险统计数据', :controller => "data", :action => "show", :id => 301 %></li>
-          <li> &gt; <%= link_to '2016年2季度昆山保险统计数据', :controller => "data", :action => "show", :id => 302 %></li>
-          <li> &gt; <%= link_to '2016年1季度昆山保险统计数据', :controller => "data", :action => "show", :id => 303 %></li>
-          <li> &gt; <%= link_to '2015年4季度昆山保险统计数据', :controller => "data", :action => "show", :id => 306 %></li>
-          <div class="List_page"><a>总数：5</a><span>1</span><a>页次：1/1</a></div>
-        </ul></div>
+        <div class="content_da">            <h1 class="news_title">2015年4季度昆山保险统计数据</h1>
+          <div id="art_content"><img src="/assets/report_img/2015Q4.png" alt="2015年4季度昆山保险统计数据" title="2015年4季度昆山保险统计数据"></div>
+        </div>
       </div>
       <div class="about_right_c"></div>
-    </div>
+    </div>  
   </div>
 </div>
-<%= render "share/links" %>
-<%= render "share/foot" %>
+<%= render :partial =>  "share/links" %>
+<%= render :partial =>  "share/foot" %>

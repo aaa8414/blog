@@ -10,6 +10,8 @@ class DataController < ApplicationController
       render "data/304"
     elsif params[:id] == "305"
       render "data/305"
+    elsif params[:id] == "306"
+      render "data/306"
     else
       render "data/show"
     end

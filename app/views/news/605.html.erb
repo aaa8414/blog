@@ -1,5 +1,5 @@
-<%= render "share/top" %>
-<%= render "share/menu" %>
+<%= render :partial =>  "share/top" %>
+<%= render :partial =>  "share/menu" %>
 <div id="newsMain">
   <div id="newsList">
     <div style="width:210px; overflow:hidden; float:left;">
@@ -25,18 +25,23 @@
           </tbody></table>
       </div>
       <div class="newsList_right_b">
-        <div class="content_da"><ul class="nlist" style="padding-left:0px;">
-          <li> &gt; <%= link_to '协会获得2016年度苏州市“消费者满意单位”称号', :controller => "news", :action => "show", :id => 601 %></li>
-          <li> &gt; <%= link_to '昆山市保险行业协会2016年财务审计报告', :controller => "news", :action => "show", :id => 602 %></li>
-          <li> &gt; <%= link_to '昆山市保险行业协会2016年工作总结', :controller => "news", :action => "show", :id => 605 %></li>
-          <li> &gt; <%= link_to '昆山市保险行业协会2015年财务审计报告', :controller => "news", :action => "show", :id => 603 %></li>
-          <li> &gt; <%= link_to '昆山市保险行业协会2015年工作总结', :controller => "news", :action => "show", :id => 604 %></li>
-          <div class="List_page"><a>总数：1</a><span>1</span><a>页次：1/1</a></div>
-        </ul></div>
+        <div class="content_da">            <h2 class="news_title">昆山市保险行业协会2016年工作总结</h2>
+          <div id="art_content">
+            <img src="/assets/news_img/zongjie1601.jpg">
+            <img src="/assets/news_img/zongjie1602.jpg">
+            <img src="/assets/news_img/zongjie1603.jpg">
+            <img src="/assets/news_img/zongjie1604.jpg">
+            <img src="/assets/news_img/zongjie1605.jpg">
+            <img src="/assets/news_img/zongjie1606.jpg">
+            <img src="/assets/news_img/zongjie1607.jpg">
+            <img src="/assets/news_img/zongjie1608.jpg">
+            <img src="/assets/news_img/zongjie1609.jpg">
+          </div>
+        </div>
       </div>
       <div class="about_right_c"></div>
     </div>
   </div>
 </div>
-<%= render "share/links" %>
-<%= render "share/foot" %>
+<%= render :partial =>  "share/links" %>
+<%= render :partial =>  "share/foot" %>
