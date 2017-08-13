@@ -14,6 +14,8 @@ class NewsController < ApplicationController
       render "news/606"
     elsif params[:id] == "607"
       render "news/607"
+    elsif params[:id] == "608"
+      render "news/608"
     else
       render "news/show"
     end
